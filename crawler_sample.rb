@@ -4,7 +4,6 @@ require 'rubygems'
 require 'whois'
 require 'timeout'
 
-# テストてすとtest
 # Whois情報の取得メソッド
 def get_whois(address)
   c = Whois::Client.new(:timeout => 3)
